@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+.dibujo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 6% auto;
+    min-width: 800px;
+}
+
+.titulo{
+    font-size: 45px;
+}
+
+p{
+    font-family:monospace;
+    font-size: 14px;
+}
+
+
+#canvas{
+    margin-top: 55px;
+    border-radius: 50px;
+    border-radius: 68px;
+    background: linear-gradient(315deg, #cfcfcf, #f6f6f6);
+    box-shadow:  -30px -30px 59px #f3d0e5,
+                 30px 30px 59px #94bbe9;
+}
